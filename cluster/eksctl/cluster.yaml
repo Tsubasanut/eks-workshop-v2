@@ -4,7 +4,7 @@ kind: ClusterConfig
 availabilityZones:
 - ${AWS_REGION}a
 - ${AWS_REGION}b
-- ${AWS_REGION}c
+# - ${AWS_REGION}c
 
 metadata:
   name: ${EKS_CLUSTER_NAME}
